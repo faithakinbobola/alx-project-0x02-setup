@@ -1,6 +1,6 @@
 import { CardProps } from "@/interfaces";
 
-export const Card: React.FC<CardProps> = ({ title, content }) => {
+const Card: React.FC<CardProps> = ({ title, content }) => {
     return (
         <div>
             <h1>{title}</h1>
@@ -8,5 +8,7 @@ export const Card: React.FC<CardProps> = ({ title, content }) => {
         </div>
     )
 }
+
+export default Card;
 
 
