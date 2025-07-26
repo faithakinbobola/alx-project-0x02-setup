@@ -1,5 +1,4 @@
 import { Card } from "@/components/common/Card";
-import { title } from "process";
 
 const Home: React.FC = () => {
     return (
