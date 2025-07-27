@@ -1,4 +1,4 @@
-import { ButtonProps } from "@/interfaces";
+import { type ButtonProps } from "@/interfaces";
 
 const sizes: Record<NonNullable<ButtonProps['size']>, string> = {
         small: 'px-3 py-1 text-sm',
