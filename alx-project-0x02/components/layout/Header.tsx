@@ -7,6 +7,7 @@ const Header: React.FC = () => {
             <div className="flex gap-2">
                 <Link href="/about">About</Link>
                 <Link href="/posts">Posts</Link>
+                <Link href="/users">Users</Link>
             </div>
         </div>
     )
