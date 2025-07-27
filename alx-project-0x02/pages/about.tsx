@@ -1,9 +1,11 @@
 import Button from "@/components/common/Button";
+import Header from "@/components/layout/Header";
 import { type ButtonProps } from "@/interfaces";
 
 const About: React.FC<ButtonProps>= () => {
     return (
         <div>
+            <Header/>
             <h1>About</h1>
             <Button
                 label="Small Rounded-sm"

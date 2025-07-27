@@ -1,5 +1,6 @@
 import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
+import Header from "@/components/layout/Header";
 import { CardProps, PostData } from "@/interfaces";
 import { useState } from "react";
 
@@ -14,6 +15,7 @@ const Home: React.FC<CardProps[]> = () => {
     return (
         <div className="px-8 py-2">
             <div>
+                <Header/>
                 <h1 className="pb-3">Home</h1>
                 <div className="flex justify-between">
                     <h1 className="flex justify-between">Post Content</h1>

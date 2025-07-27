@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Header: React.FC = () => {
     return (
-        <div className="flex justify-between px-4 py-3">
+        <div className="flex justify-between py-3">
             <Link href="/home">Home</Link>
             <div className="flex gap-2">
                 <Link href="/about">About</Link>
