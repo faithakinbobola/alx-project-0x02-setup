@@ -9,6 +9,13 @@ export interface PostData {
 }
 
 export interface PostModalProps {
-    onSubmit: (cardForm: PostModal) => void;
+    onSubmit: (cardForm: PostData) => void;
     onClose: () => void;
+}
+
+export interface ButtonProps {
+    label: string;
+    size?: 'small' | 'medium' | 'large';
+    shape?: 'rounded-sm' | 'rounded-md' | 'rounded-full';
+    onClick?: () => void;
 }
